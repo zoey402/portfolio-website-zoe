@@ -1,0 +1,68 @@
+Image Filename: "avatartion.png"
+Description: This image is used as the logo in the NavBar component of Zoe's Portfolio website.
+Owner: Zihan Zhu
+Source: This image is my own creation.
+Usage Rights: As the creator and owner of this image, I have full rights to use it in this project.
+
+Image Filename: "xoe-picture.jpg"
+Description: This image is used as the background in the home page of Zoe's Portfolio website.
+Owner: Zihan Zhu
+Source: This image is my own creation.
+Usage Rights: As the creator and owner of this image, I have full rights to use it in this project.
+
+Image Filename: {
+    "icons8-amazon-web-services-48.png",
+    "icons8-bootstrap-48.png",
+    "icons8-browser-50.png",
+    "icons8-chevron-down-48.png",
+    "icons8-code-50.png",
+    "icons8-css3-48.png",
+    "icons8-email-24.png",
+    "icons8-express-js-48.png",
+    "icons8-figma-48.png",
+    "icons8-file-24.pmg",
+    "icons8-file.gif",
+    "icons8-git-48.png",
+    "icons8-github-48.png",
+    "icons8-html5-48.png",
+    "icons8-java-48.png",
+    "icons8-javascript-48.png",
+    "icons8-location-24.png",
+    "icons8-mongodb-48.png",
+    "icons8-moon-24.png",
+    "icons8-mysql-48.png",
+    "icons8-nodejs-48.png",
+    "icons8-paper-airplane-50.png",
+    "icons8-paper-airplane.gif",
+    "icons8-phone-24.png",
+    "icons8-python-48.png",
+    "icons8-react-48.png",
+    "icons8-redux-48.png",
+    "icons8-spring-boot-48.png",
+    "icons8-sun-24.png",
+    "icons8-tool-50.png",
+    "icons8-redux-48.png",
+    "icons8-redux-48.png",
+} 
+Description: These images are used as icons in this project. 
+Owner: Icons8 (https://icons8.com)
+License Agreement: https://intercom.help/icons8-7fb7577e8170/en/articles/5534926-universal-multimedia-license-agreement-for-icons8
+
+
+Image Filename: "leetcode.jpg"
+Description: This image is used as card background in the "Projects" page.
+Owner: Christopher Gower
+Source: https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo
+License Agreement: https://unsplash.com/license
+
+Image Filename: "portfolio.jpg"
+Description: This image is used as card background in the "Projects" page.
+Owner: Thought Catalog
+Source: https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-505eectW54k
+License Agreement: https://unsplash.com/license
+
+Image Filename: "craftcove.jpg"
+Description: This image is used as card background in the "Projects" page.
+Owner: rocknwool
+Source: https://unsplash.com/photos/brown-framed-sunglasses-on-white-knit-textile-tkoRh1YvIQU
+License Agreement: https://unsplash.com/license

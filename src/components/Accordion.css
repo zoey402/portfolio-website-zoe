@@ -1,0 +1,56 @@
+
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.accordion__button {
+    background-color: #f7f7f7;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion__button:hover,
+.accordion__button:focus {
+    background-color: #eaeaea;
+}
+
+.accordion__icon {
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #666;
+    transition: transform 0.3s ease;
+    margin-right: 0.5rem;
+}
+
+.accordion__content {
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.accordion__content.open {
+    max-height: 1000px; 
+}
+
+@media screen and (max-width: 768px) {
+    .accordion__button {
+        font-size: 1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .accordion__button,
+    .accordion__content,
+    .accordion__icon {
+        transition: none;
+    }
+}

@@ -1,0 +1,149 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
+  
+.switch input {
+    transform: scale(0.5);
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: lightgray;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+  
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 28px;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+  
+.switch input:checked + .slider {
+    background-color: #FCC;
+}
+  
+.switch input:focus + .slider {
+    box-shadow: #FCC;
+}
+  
+.switch input:checked + .slider::before,
+.switch input:checked + .slider > .emoji {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider.round {  
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+}
+  
+.slider.round::before {
+
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+  
+.slider::after {
+    display: inline;
+    position: absolute;
+    right: 9.3%;
+    bottom: 17.5%;
+}
+  
+.switch input:checked + .slider::after {
+    display: inline;
+    position: absolute;
+    right: 56.3%;
+    bottom: 14.5%;
+}
+
+.emoji {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+
+    height: 26px;
+    width: 26px;
+
+    border-radius: 50%;
+    background-color: white;
+}
+
+.emoji img {
+    height: 20px;
+    width: 20px;
+    margin-left: 2px;
+}
+
+
+
+.theme__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.theme__text {
+    color: #666;
+    margin-right: 0.5rem;
+}
+
+
+body.dark .theme__text {
+    color: #fff;
+}
+
+@media all and (max-width: 786px){
+    .switch input:checked + .slider::after {
+      right: 60.3%;
+      bottom: 20.5%;
+    }
+    .slider::after {
+      right: 15.3%;
+      bottom: 22.5%;
+    }  
+
+}
+  
+@media all and (max-width: 2560px) and (min-width: 1552px) {
+    .slider::after {
+      bottom: 12.5% !important;
+    }
+}
+  
+@media all and (max-width: 1552px) and (min-width: 1440px) {
+    .slider::after {
+      bottom: 7.5% !important;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .switch {
+        transition: none;
+    }
+    .switch input:checked + .slider::before,
+    .switch input:checked + .slider > .emoji {
+        transition: none;
+    }
+}
+  

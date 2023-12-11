@@ -1,0 +1,11 @@
+/* Dark Mode */
+
+
+
+body.dark .small-text,
+body.dark .faqs__answer,
+body.dark .skills__name{
+    color: #fff;
+}
+
+

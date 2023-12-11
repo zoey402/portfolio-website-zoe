@@ -1,0 +1,109 @@
+.professional__container,
+.education__container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+.professional__text,
+.education__text {
+    position: relative;
+    padding-left: 60px; 
+}
+
+.experiences__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.professional__content,
+.education__content {
+    position: relative;
+}
+
+.professional__item,
+.education__item {
+    position: relative;
+    padding: 20px 0 20px 40px; 
+    margin-left: 20px;
+}
+
+.professional__item:before,
+.education__item:before {
+    content: '';
+    position: absolute;
+    left: -50px; 
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FFC419;
+    border: 3px solid #fff;
+}
+
+.professional__content:after,
+.education__content:after {
+    content: '';
+    position: absolute;
+    left: -42px; 
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #ddd;
+}
+
+.time__span {
+    position: absolute;
+    left: -160px; 
+    top: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.position,
+.university {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .professional__item:before,
+    .professional__content:after,
+    .education__item:before,
+    .education__content:after {
+        left: -20px;
+    }
+
+    .professional__item,
+    .education__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 2rem;
+    }
+
+    .time__span {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 1rem;
+
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+}

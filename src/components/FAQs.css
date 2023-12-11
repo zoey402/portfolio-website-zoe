@@ -1,0 +1,40 @@
+.faqs__container{
+
+    max-width: 1200px;
+    min-width: 426px;
+    margin: 5em auto;
+    padding: 0 1rem 0 3rem;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.faqs__title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.faqs__answer {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .faqs__container {
+        padding: 0 1rem;
+        align-items: center;
+    }
+
+    .faqs__title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .faqs__answer {
+        font-size: 1rem;
+    }
+}

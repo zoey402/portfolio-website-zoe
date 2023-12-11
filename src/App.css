@@ -1,0 +1,47 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  line-height: 1.6;
+}
+
+body{
+  overflow: hidden;
+  overflow-y: scroll;
+  font-family: 'Maven Pro', sans-serif;
+  min-width: 360px;
+}
+
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.skiplink {
+  position: absolute;
+  top: -45px; 
+  left: 45%;
+  background: #FFC419; 
+  color: white;
+  padding: 8px 16px;
+  z-index: 100; 
+  transition: top 0.3s;
+}
+
+.skiplink:focus {
+  top: 0; 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skiplink {
+    transition: none;
+  }
+}
